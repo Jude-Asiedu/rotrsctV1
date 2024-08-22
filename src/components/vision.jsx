@@ -2,9 +2,9 @@ import React from 'react'
 
 const Vision = () => {
   return (
-    <div className='container mt-5 pt-5'>
-      <div className="row fw-lighter">
-        <div className="col-md-5    ">
+    <div className='container mt-5'>
+      <div className="row fw-lighter ">
+        <div className="col-sm-12 col-md-5 mt-5 ">
            <h2 className='mt-5'> Educators are innovators.</h2>
             <p>
                 <small className=''>
@@ -27,8 +27,8 @@ const Vision = () => {
                 </small>
             </p>
         </div>
-        <div className="col-md-7  text-center">
-            <img src="assets/img/sdsa.png"  alt="Shots" width="480px" height="610px" />
+        <div className=" col-sm-12 col-md-7 col-lg-6 d-flex align-items-center justify-content-end">
+            <img src="assets/img/sdsa.png" className='img-fluid'  alt="Shots"  height="710px" />
         </div>
       </div>
     </div>

@@ -3,18 +3,15 @@ import { useNavigate } from "react-router-dom"
 import Form from './form'
 
 const Home = () => {
-
-const nav = useNavigate()
-
+  const nav = useNavigate()
   return (
     <div className='container-fluid'>
     <div className='row heroSection pb-5'>
-    <div className='col-7 d-flex align-items-end pb-3' >
-     <h1 className='text-white  mx-3 mb-0 display-3'>
-        Empowering teachers  and students for a brighter future
-      </h1>
-    </div>
-      
+      <div className='col-sm-12 col-md-12  d-flex align-items-end pb-3' >
+       <h1 className='text-white  mx-3 mb-0 display-3'>
+          Empowering teachers  and students for a brighter future
+        </h1>
+      </div>
     </div>
     <div className='row mx-1 my-5 py-5'>
         <div className="col-sm-12 col-md-6">
@@ -30,7 +27,7 @@ const nav = useNavigate()
      </div>
      <div className="row homesectionbg">
       <div className="col-sm-12 col-md-6 p-5">
-        <img src="/assets/img/school_nigeria.png" alt="" width="480" height="300" />
+        <img src="/assets/img/school_nigeria.png" className='img-fluid' alt=""  height="400" />
       </div>
       <div className="col-sm-12 col-md-6 p-5 text-white">
         <h3 className='mt-2'> Materials for learning</h3>
@@ -40,7 +37,7 @@ const nav = useNavigate()
          textbooks that are age appropriate and written in their primary language.
         </p>
 
-        <button type="button" class="btn btn-light px-5 py-3 rounded-0"> <small> Learn More </small> </button>
+        <button type="button" className="btn btn-light px-5 py-3 rounded-0"> <small> Learn More </small> </button>
       </div>
       <div className="col-sm-12 col-md-6 p-5 text-white">
         <h3 className='mt-2'>Continuing Education for Teachers</h3>
@@ -51,13 +48,13 @@ const nav = useNavigate()
         we help teachers make their classrooms engaging and successful.
         </small>
         </p>
-        <button type="button" class="btn btn-light px-5 py-3 rounded-0"> <small> Learn More </small> </button>
+        <button type="button" className="btn btn-light px-5 py-3 rounded-0"> <small> Learn More </small> </button>
       </div>     
        <div className="col-sm-12 col-md-6 p-5">
-        <img src="/assets/img/hane.jpeg" alt="" width="480" height="300" />
+        <img src="/assets/img/hane.jpeg" className='img-fluid' alt="" width="480" height="300" />
        </div>
       <div className="col-sm-12 col-md-6 p-5">
-        <img src="/assets/img/sda.jpg" alt="" width="480" height="300" />
+        <img src="/assets/img/sda.jpg" className='img-fluid' alt="" width="480" height="300" />
       </div>
       <div className="col-sm-12 col-md-6 p-5 text-white">
         <h3 className='mt-2'> Support  for Communities</h3>
@@ -68,7 +65,7 @@ const nav = useNavigate()
         </small>
         </p>
 
-        <button type="button" class="btn btn-light px-5 py-3 rounded-0"> <small> Learn More </small> </button>
+        <button type="button" className="btn btn-light px-5 py-3 rounded-0"> <small> Learn More </small> </button>
       </div>
      </div>
      <div className="row mx-2 my-5">
@@ -82,7 +79,7 @@ const nav = useNavigate()
      </div>
      <div className="row mx-2 mt-4">
       <div className="col-11 mx-auto text-center mt-4">
-      <img src="/assets/img/school_nigeria.png" alt=""  height="450" />
+      <img src="/assets/img/school_nigeria.png"  className='img-fluid' alt="dropImage"  height="550" />
       </div>
      </div>
      {/* CONTSCT SECTION */}

@@ -8,7 +8,7 @@ const Projects = () => {
     </div>
     <div className='container mt-5'>
         <div className="row mt-5">
-            <div className="col-sm-12 col-md-6 mx-auto fs-6 fw-lighter mt-5">
+            <div className="col-sm-12 col-md-9 col-lg-7 mx-auto fs-6 fw-lighter mt-5">
                 <h3 className='fs-2'> Materials for Learning</h3>
                 <p className='fs-6'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
