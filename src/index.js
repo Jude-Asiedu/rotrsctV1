@@ -24,5 +24,5 @@ const sendToAnalytics = (metric) => {
   });
 };
 
-// reportWebVitals(console.log);
-reportWebVitals(sendToAnalytics);
+reportWebVitals(console.log);
+// reportWebVitals(sendToAnalytics);
