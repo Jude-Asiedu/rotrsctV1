@@ -28,9 +28,7 @@ function Navbar() {
           <li className='nav-item' ><NavLink className='nav-link' style={navLinkStyle} to='/blog' >Blog </NavLink></li>
           <li className='nav-item' ><NavLink className='nav-link' style={navLinkStyle} to='/projects' >Projects  </NavLink></li>
           <li className='nav-item' ><NavLink  className='nav-link'style={navLinkStyle} to='/team' >Our Team </NavLink></li>
-          <li className='nav-item' > 
-            {!auth?.user && (<NavLink className='nav-link' style={navLinkStyle} to='/login' >Login </NavLink> )}
-          </li>
+        
         </ul>
             {/* <button className='btn btn-white border-dark rounded-0 text-dark px-4 py-3'> Donate </button> */}
         {/* </div> */}
